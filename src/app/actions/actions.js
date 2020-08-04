@@ -19,7 +19,8 @@ export function getMonth(month_number) {
 
 
 export function nextMonth() {
-    if(currentMOnth>11){
+    console.log(currentMOnth)
+    if(currentMOnth>=11){
         currentMOnth=0;
     }else{
         currentMOnth++;
@@ -38,7 +39,7 @@ export function nextMonth() {
 
 
 export function prevMonth() {
-    if(currentMOnth<0){
+    if(currentMOnth<=0){
         currentMOnth=11;
     }else{
         currentMOnth--;
