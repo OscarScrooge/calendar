@@ -1,0 +1,31 @@
+
+
+.month > button{
+    text-align: center;
+    font-size: 15px;
+    background: white;
+    color: #7a7a52;
+    font-weight: bolder;
+    border-color: #ffaa80;
+}
+
+.year > button{
+    text-align: center;
+    font-size: 15px;
+    background: white;
+    color: #7a7a52;
+    font-weight: bolder;
+    border-color: #ffaa80;
+}
+
+.year > button > .left-arrow{
+    font-size: 20px;
+}
+
+.year > button > .rigth-arrow{
+    font-size: 20px;
+}
+
+.left-arrow{
+    transform: rotate(180deg);
+}

@@ -1,0 +1,31 @@
+
+
+.name-day > th{
+
+    text-align: center;
+    padding-top: 5%;
+    font-family: Georgia;
+    color: #ffaa80;
+    font-weight: bold;
+
+}
+
+.name-day{
+    padding-bottom: 2%;
+}
+
+.number-day > td{
+
+    text-align: center;
+    padding-top: 2%;
+    font-family: Georgia;
+    background: #ccfff5;
+    color: #664400;
+    font-weight: bold;
+
+}
+
+.grid-days{
+    width:50%;
+    margin: 0 auto;
+}
